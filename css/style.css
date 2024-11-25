@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*
+{
+    margin: 0  ;
+    padding: 0;
+box-sizing: border-box;
+}
+body
+{
+    font-family: "Open Sans", sans-serif;
+}
+.con
+{
+width: 1200px;
+margin: auto;
+}
+.top
+{
+    background-color: rgb(7, 85, 7);
+    color: white;
+    padding: 15px 0 ;
+}
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+}
+ul
+{
+    list-style: none;
+
+}
+.top ul
+{
+    display: flex;
+    gap: 20px  ;
+    font-weight: 600;
+    font-size: 13px;
+}
+header
+{
+    background-color: #3aa83a;
+    padding: 20px;
+}
+.ai 
+{
+  align-items: center;
+  
+}
+nav ul
+{
+    display: flex;
+    gap: 20px   ;
+}
+.banner
+{
+    background: linear-gradient(rgb(22, 68, 22), rgb(58, 192, 58));  padding: 20px;
+}
+.w
+{
+    width: 100%;
+    object-fit: fill;
+}
+.about
+{
+    padding: 20px 0;
+}
+.about-left
+{
+    width: 70%;
+    padding: 20px;
+}
+.about-right
+{
+    width: 30%;
+    padding: 20px;
+}
+.n
+{
+    background: #3aa83a;
+    padding: 20px;
+}
+.wleft
+{
+    
+    width: 40%;
+}
+.sep
+{
+    width: 80px ; height: 5px; background: darkgreen;
+}
+.wright
+{
+   
+    width: 60%;
+}
+.whatwedo
+
+{background-color: rgb(224, 224, 224); padding: 30px 0;}
+.wright ul
+{
+    background-color: rgb(116, 230, 116); padding: 20px;
+}
+.wright li
+{
+    border-bottom: 1px solid #fff;
+padding: 20px 0;
+font-size: 22px;
+font-weight: bold;
+}
+footer
+{
+    background:#247C04; 
+    padding: 20px 0;
+    color: white; 
+}
+.fbox
+{
+    width: 30%;
+}
+.fbox h2
+{
+    padding: 20px 0 ;
+}
+.list ul
+{
+    list-style: disc;
+}
+.fbox li
+{
+    line-height: 1.7;
+}
+.copyright
+{
+    background: black ; color: white;
+    padding: 15px 0;
+}
+main
+{
+    box-shadow: 2px 2px 6px 5px gray;
+    padding: 30px;
+margin: 30px auto;
+}
+main p{
+    line-height: 1.7;
+}
+.con-left
+{
+    width: 30%;
+}
+.con-right
+{
+    width: 70%;
+}
+.con-right input
+{
+    width: 44%;
+    height: 45px;
+    margin: 20px 20px 20px 0;
+    padding-left: 20px;
+}
+.wrap   
+
+{
+    flex-wrap: wrap;
+}
+.red    
+{
+    background: red;
+    color: #fff;
+}

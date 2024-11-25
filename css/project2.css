@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.con
+{
+    margin: auto;
+    width: 1200px;
+}
+.flex   
+{
+    display: flex;
+    justify-content: space-between;
+}
+ul
+{
+    list-style: none;
+    
+   
+}
+.top    
+{
+    padding: 15px;
+}
+.top ul
+{
+    display: flex;
+    gap: 20px  ;
+    
+    
+}
+.date
+{
+    text-align: left;
+}
+.sep
+{
+    width: 1200px;
+    height: 5px;
+    background: gray;
+}
+header 
+{
+    
+   padding: 20px;
+
+}
+nav ul
+{
+    display: flex;
+    gap: 60px;
+    text-align: center;
+    
+}
+.sep1
+{
+    width: 1150px;
+    height: 3px;
+    background: black;
+}
+.sam ul
+{
+   display: flex;
+   padding: 10px; 
+   gap: 10px;
+}
+.con1
+{
+    width: 1100px;
+    margin: auto;
+}
+.sep2
+{
+    width: 1150px;
+    height: 2px;
+    background: grey;
+}
+.ad{
+    
+    padding: 20px;
+    align-content: center;
+}
+.hed
+{
+    align-content: center;
+}
+.title
+{
+    align-content: right;
+    width: 1200px;
+    
+}
+.vie    {
+    align-content: center;
+}
+.hhh
+{
+    text-align: center;
+}

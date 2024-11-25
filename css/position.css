@@ -1,0 +1,56 @@
+.box
+{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+.a
+{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    background: pink;
+    z-index: 2;
+}
+.b
+{
+    background: blue;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+body
+{
+    height: 1990px;
+}
+.c
+{
+    background: purple;
+    position: sticky;
+    top: 10px;
+    z-index: 1;
+}
+.room
+{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: relative;
+
+}
+.sujal
+{
+    width: 40px ;
+    height: 40px;
+    background: red;
+    position: absolute;
+}
+.sujal1
+{
+    width: 40px;
+    height: 40px;
+    background: yellow;
+    position: absolute;
+    bottom: 40%;
+    right: -25px;
+}

@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top
+{
+   
+}
+.dis
+{
+background-color: red ;
+width: 1200px;
+height: 30px;
+
+}
+
+.dis ul
+{
+    display: flex;
+   list-style: none;
+   gap: 20px   ;
+   
+   color: aliceblue;
+   align-content: center;
+}
+.men
+{
+    width: 1200px;
+    display: flex;
+    gap: 100px     ;
+    position: sticky;
+   
+padding: 20px 30px;
+}
+.im
+{
+    width: 50px;
+    height: 40px;
+}
+.hol ul
+{
+    list-style: none;
+}
+.serbox
+{
+    width: 150px;
+    display: flex;
+}

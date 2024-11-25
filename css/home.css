@@ -1,0 +1,25 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box
+{
+    border: 2px solid black;
+    padding: 30px;
+}
+.main
+{
+    background: orange;
+    height: 450px;
+    display: flex;
+    /* flex, inline-flex */
+    flex-direction: row;
+    /* row, Column */
+flex-wrap: wrap;
+/* */
+justify-content: start;
+/* start, end, center, space-between, space-around,space-eveanly */
+d
+}
